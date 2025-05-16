@@ -1,14 +1,87 @@
-
-
-#header {
-    background-image: url("../img/bg-hero.jpg") ;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: left;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#trabajos {
-    background-color: #17A2B8;
+html, body{
+    height: 100%;
+    font-family: "roboto";
 }
 
+.customcolor{
+    background-color: #28A745;
+}
 
+header .color {
+    color: #ffffff;
+}
+
+.navbar-toggler{
+    color:#ffffff
+}
+
+.cupon {
+    width: 18rem;
+    font-weight: 500;
+  }
+  
+  .cupon .proveedor {
+    color: #757575;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+
+  .cupon .ubicacion {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+  }
+  
+  .cupon hr {
+    border-top: 2px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .cupon .valor {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .cupon .valor .original {
+    color: #888;
+    margin-right: 0.5rem;
+    font-weight: 300;
+  }
+  
+  .cupon .valor .oferta {
+    color: #28a745;
+    font-weight: 500;
+    font-size: 1.6rem;
+  } 
+
+  .formulario {
+    background-color: #28A745;
+    padding: 30px;
+    color: #ffffff;
+  }
+
+  .h2 {
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  #footer {
+    background-color: #ffffff;
+    font-weight: 300;
+    color: #757575;
+    text-align: center;
+    padding: 30px;
+  }
+
+  footer img{
+    width: 30%;
+    padding-bottom: 10px;
+  }
